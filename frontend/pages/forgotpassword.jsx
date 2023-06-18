@@ -17,7 +17,7 @@ import {
 } from '@chakra-ui/react'
 import React, { useState, useEffect } from 'react'
 import { GoogleIcon } from '../components/ProviderIcons'
-import { NavbarLanding } from "../components/navbar/NavbarLanding";
+import { NavbarLanding } from "../components/Navbar/NavbarLanding";
 import { getAuth, sendPasswordResetEmail, confirmPasswordReset } from "firebase/auth";
 import { useRouter } from 'next/router'
 

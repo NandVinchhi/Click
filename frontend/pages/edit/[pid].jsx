@@ -1,8 +1,7 @@
 import React, { useState, useEffect, useCallback, useRef } from "react";
 
-import { NavbarLanding } from "../../components/navbar/NavbarLanding";
 import { Testimonial } from "../../components/Testimonial";
-
+import { NavbarLanding } from "../../components/Navbar/NavbarLanding";
 import { useRouter } from "next/router";
 import { getAuth } from "firebase/auth";
 import Head from "next/head";
